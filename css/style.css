@@ -1,0 +1,119 @@
+    :root{
+        --theme-color: #2196F3;
+        --secondory-theme-color: #2F303A;
+
+        --text-primary: #212121;
+        --text-secondary: #757575;
+       
+        --primary-font: 'Roboto'
+        --secondary-font: 'Raleway'
+    }
+    body{
+         font-family: 'Roboto', sans-serif;
+    }
+    main{
+        background-color: var(--secondory-theme-color);
+        padding: 160px;
+    }
+    ul, ol{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    address{
+        font-style: normal;
+    }
+
+    button {
+        background-color: #F5F4FA;
+        color: #212121;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #2196F3;
+        color: #FFFFFF;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    h1 {
+        color: #FFFFFF;
+        font-family: var(--primary-font);
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+    }
+    .head-link {
+        color: var(--text-primary);
+        font-family: var(--primary-font)
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+
+    } 
+    .head-link:hover{
+        color: var(--theme-color);
+        text-decoration: none;
+        font-family: var(--primary-font);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    h3 {
+        font-family: var(--primary-font);
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .text{
+        color: var(--text-secondary);
+        font-family: var(--primary-font);
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    h2{
+        font-family: var(--primary-font);
+        font-style: normal;
+        font-weight: bold; 
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .h3{
+        font-family: var(--primary-font);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    p{
+        color: var(--text-secondary);
+        font-family: var(--primary-font);
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .footer-links{
+        color: rgba(255, 255, 255, 0.6);
+        font-family: var(--primary-font);
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    footer{
+        background-color: var(--secondory-theme-color);
+    }
+    .link-mail ,
+    .link-tel{
+        color:  rgba(255, 255, 255, 0.6);
+        ;
+    }
